@@ -28,9 +28,9 @@ with main:
     st.write("Connect with me...")
     gmail, linked, insta, github, tweet= st.columns(5)
     with gmail:
-        st.button("",use_container_width=True,icon=":material/mail:")
+        st.button("","nishantsurwade982001@gmail.com",use_container_width=True,icon=":material/mail:")
     with linked:
-        st.button("linked-in",use_container_width=True)
+        st.link_button("linked-in","https://www.linkedin.com/in/nishantsurwade8314/",use_container_width=True)
     with insta:
         st.button("insta", use_container_width=True)
     with github:
