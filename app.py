@@ -36,7 +36,7 @@ with main:
     with github:
         st.link_button("github","https://github.com/Nishant982001", use_container_width=True)
     with tweet:
-        st.button("X", use_container_width=True)
+        st.button("X","https://x.com/INishantSurwade", use_container_width=True)
 with starter:
     st_lottie(lottie_loader2, height=385, width=700)
 
