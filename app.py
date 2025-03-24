@@ -34,7 +34,7 @@ with main:
     with insta:
         st.button("insta", use_container_width=True)
     with github:
-        st.link_button("github","https://github.com/Nishant982001", use_container_width=True)
+        st.link_button("github","https://github.com/Nishant982001", use_container_width=True, icon="")
     with tweet:
         st.button("X","https://x.com/INishantSurwade", use_container_width=True)
 with starter:
