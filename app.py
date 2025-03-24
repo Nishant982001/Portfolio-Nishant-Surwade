@@ -70,9 +70,11 @@ text = """
 """
 
 achiev2 = """ 
-RUNNER UP - RDP IIT BOMBAY TECHFEST 2022 IN ASSOCIATION WITH TATA SONS\n - Built the given problem statement Research Discovery Platform and Being the only team from Maharashtra, and youngest off all the other teams, we honoured to achieve the 2nd position with a cash prize. 
+RUNNER UP - RDP IIT BOMBAY TECHFEST 2022 IN ASSOCIATION WITH TATA SONS 
+- Built the given problem statement Research Discovery Platform and Being the only team from Maharashtra, and youngest off all the other teams, we honoured to achieve the 2nd position with a cash prize. 
 
-WINNER - GMRT & IIK PUNE ORGANISED NATIONAL LEVEL SCIENCE PROJECT COMPETITION\n - Secured 1st Place among the 650 projects from 329 institutions and 9 states. Our team of four built fluent and ecofriendly mechanism for cleaning and managing the floating trash in river without disrupting the traffic and harming the aquatic life.
+WINNER - GMRT & IIK PUNE ORGANISED NATIONAL LEVEL SCIENCE PROJECT COMPETITION 
+- Secured 1st Place among the 650 projects from 329 institutions and 9 states. Our team of four built fluent and ecofriendly mechanism for cleaning and managing the floating trash in river without disrupting the traffic and harming the aquatic life.
 """
 
 soci = """
