@@ -90,7 +90,7 @@ def stream_data(tex):
 if selected == 'About':
     # col1, col2  = st.columns(2)
     # with col1:
-    st.title("Click to generate response")
+    st.subheader("Click To Generate Response")
     education, skills, workex, achiev, society = st.columns(5)
     mainbox = st.container( border=True, height=300 )
     with education:
