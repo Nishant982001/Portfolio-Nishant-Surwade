@@ -166,19 +166,19 @@ if selected == "Projects":
         st.write("---")  
 
         col9 , col10 = st.columns({1,2})
-        with col7:
+        with col9:
             st.image(image2)
-        with col8:
+        with col10:
             st.subheader("RAG-PDFChat: AI-Powered Q&A with Contextual Memory")
             st.write("""
                     RAG-PDFChat is an advanced AI-powered chatbot that enables context-aware question answering over PDFs using Retrieval-Augmented Generation (RAG). It combines LangChain, ChromaDB, Groq API (Gemma-2B-IT), and Hugging Face embeddings to provide precise, multi-turn responses while maintaining chat history for contextual memory..
                     """)
-            col21, col22, col23 = st.columns(3)
-            with col21:
+            col31, col32, col33 = st.columns(3)
+            with col31:
                 st.link_button("Github Repo","https://github.com/Nishant982001/NVIDIA-NIM-RAG-AI-Powered-Document-Querying-with-FAISS",use_container_width=True)
-            with col22:
+            with col32:
                 st.link_button("View Demo","https://ai-blogcrafter.streamlit.app/",use_container_width=True)
-            with col23:
+            with col33:
                 st.link_button("Comments","",use_container_width=True)
         st.write("---") 
 
