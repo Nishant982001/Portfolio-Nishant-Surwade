@@ -219,7 +219,7 @@ if selected=="Blogs":
         st.header("LangChain: Bridging the Gap Between Language Models and Intelligent Applications")
         with blogbox:
             if st.button("Generate"):
-                         st.write_stream(stream_data(blog1)
+                         st.write_stream(stream_data(blog1))
         st.write(blog1)
         st.write("---")
         st.header("Agentic AI: Unleashing the Cognitive Frontier of Artificial Intelligence")
