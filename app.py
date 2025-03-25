@@ -220,6 +220,12 @@ if selected=="Blogs":
         st.write("---")
         st.header("Agentic AI: Unleashing the Cognitive Frontier of Artificial Intelligence")
         st.write(blog2)
+        st.write("---")
+
+if selected=="Quotes":
+    with st.container():
+        st.header("THE RAREST OF ALL HUMAN QUALITIES IS CONSISTENCY")
+        st.write("---")
     
         
 
