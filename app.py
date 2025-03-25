@@ -221,8 +221,11 @@ if selected=="Blogs":
             if st.button("Generate"):
                          st.write_stream(stream_data(blog1))
         st.write("---")
-        st.header("Agentic AI: Unleashing the Cognitive Frontier of Artificial Intelligence")
-        st.write(blog2)
+        with blogbox:
+            st.header("Agentic AI: Unleashing the Cognitive Frontier of Artificial Intelligence")
+            if st.button("Generate"):
+                         st.write_stream(stream_data(blog2))
+        # st.write(blog2)
         st.write("---")
 
 if selected=="Quotes":
