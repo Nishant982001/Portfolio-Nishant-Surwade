@@ -40,7 +40,9 @@ with main:
         st.link_button("X","https://x.com/INishantSurwade", use_container_width=True)
     st.download_button(
         label = "Download CV",
-        file_name = "resume.pdf"
+        data = file,
+        file_name = "resume.pdf",
+        icon=":material/download:",
         
     )
 with starter:
