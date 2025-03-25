@@ -19,6 +19,7 @@ header_ani = load_lottieurl("https://lottie.host/ffc18d17-c4da-4c89-9ccf-ad8bc10
 image = Image.open("Screenshot 2025-03-24 024654.png")
 # image2 = Image.open("E:\Portfolio\Portfolio - Streamlit\Images\unnamed (1).jpg")
 image2 = Image.open("Screenshot 2025-03-24 042423.png")
+image3 = 
 main , starter =  st.columns(2)
 with main:
     # st_lottie(header_ani, height=150, width= 300)
@@ -163,6 +164,23 @@ if selected == "Projects":
             with col23:
                 st.link_button("Comments","",use_container_width=True)
         st.write("---")  
+
+        col9 , col10 = st.columns({1,2})
+        with col7:
+            st.image(image2)
+        with col8:
+            st.subheader("RAG-PDFChat: AI-Powered Q&A with Contextual Memory")
+            st.write("""
+                    RAG-PDFChat is an advanced AI-powered chatbot that enables context-aware question answering over PDFs using Retrieval-Augmented Generation (RAG). It combines LangChain, ChromaDB, Groq API (Gemma-2B-IT), and Hugging Face embeddings to provide precise, multi-turn responses while maintaining chat history for contextual memory..
+                    """)
+            col21, col22, col23 = st.columns(3)
+            with col21:
+                st.link_button("Github Repo","https://github.com/Nishant982001/NVIDIA-NIM-RAG-AI-Powered-Document-Querying-with-FAISS",use_container_width=True)
+            with col22:
+                st.link_button("View Demo","https://ai-blogcrafter.streamlit.app/",use_container_width=True)
+            with col23:
+                st.link_button("Comments","",use_container_width=True)
+        st.write("---") 
 
         
 
