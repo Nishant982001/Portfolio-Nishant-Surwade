@@ -125,7 +125,6 @@ if selected == 'About':
 
 if selected == "Projects":
     with st.container():
-        st.subheader("My Personal Projects")
         col5 , col6 = st.columns({1,2})
         with col5:
             st.image(image)
@@ -179,5 +178,85 @@ if selected == "Projects":
                 st.link_button("Comments","",use_container_width=True)
         st.write("---") 
 
+
+blog1 = """
+LangChain: Bridging the Gap Between Language Models and Intelligent Applications
+In the rapidly evolving landscape of artificial intelligence, LangChain has emerged as a groundbreaking framework that is transforming how developers and researchers approach generative AI and agentic intelligence. This powerful open-source library is not just another tool—it's a game-changer that is reshaping our understanding of how language models can be integrated into sophisticated, intelligent systems.
+The Genesis of LangChain
+Born out of the need to create more complex and capable AI applications, LangChain addresses a critical challenge in the world of generative AI: turning large language models from simple text generators into intelligent, context-aware agents capable of complex reasoning and task completion.
+Key Features That Set LangChain Apart
+1. Modular Component Architecture
+LangChain's most significant innovation is its modular design. The framework provides a comprehensive set of abstractions that allow developers to:
+
+Chain together multiple AI components
+Create dynamic workflows
+Build context-aware applications that go beyond simple prompt-response interactions
+
+2. Advanced Prompt Management
+Unlike traditional approaches, LangChain introduces sophisticated prompt engineering techniques:
+
+Dynamic prompt templates
+Context-aware prompt generation
+Ability to create complex reasoning chains that break down intricate tasks into manageable steps
+
+3. Memory and State Management
+One of the most powerful features of LangChain is its robust memory management:
+
+Conversation memory tracking
+State preservation across multiple interactions
+Context retention that enables more nuanced and contextually rich interactions
+
+Revolutionizing Agentic AI
+LangChain is at the forefront of the agentic AI revolution, enabling the creation of AI agents that can:
+
+Autonomously reason and make decisions
+Execute multi-step tasks
+Interact with external tools and APIs
+Learn and adapt based on context
+
+Real-World Applications
+The potential applications of LangChain are vast and transformative:
+
+Intelligent research assistants that can navigate complex information landscapes
+Customer support systems that understand context and provide personalized solutions
+Complex data analysis tools that can interpret and synthesize information
+Creative writing and content generation platforms with unprecedented depth and understanding
+
+Technical Architecture
+At its core, LangChain provides several key abstractions:
+
+Agents: Intelligent systems that can make decisions and take actions
+Tools: Interfaces for agents to interact with external resources
+Chains: Sequences of calls that combine multiple components to create advanced workflows
+Memory: Mechanisms to maintain state and context across interactions
+
+The Future of Generative AI
+LangChain represents more than just a technological advancement—it's a paradigm shift in how we conceptualize artificial intelligence. By providing a flexible framework for building intelligent applications, it democratizes access to advanced AI capabilities.
+Challenges and Considerations
+While LangChain offers incredible potential, developers must be mindful of:
+
+Ethical AI development
+Proper context management
+Handling complex edge cases
+Ensuring robust error handling
+
+Getting Started with LangChain
+For developers eager to explore this transformative technology, the journey begins with:
+
+Understanding the core concepts
+Experimenting with simple chains
+Gradually building more complex agentic systems
+Engaging with the vibrant LangChain community
+
+Conclusion
+LangChain is not just a library—it's a bridge to the future of intelligent computing. As generative AI continues to evolve, frameworks like LangChain will be crucial in translating the raw potential of large language models into practical, intelligent applications that can truly understand, reason, and interact.
+The age of agentic AI is here, and LangChain is leading the charge.
+"""
+
+if selected=="Blogs":
+    with st.container():
+        st.title("LangChain: Bridging the Gap Between Language Models and Intelligent Applications") 
+        st.write(blog1)
+    
         
 
