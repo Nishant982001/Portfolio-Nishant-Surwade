@@ -219,7 +219,7 @@ if selected=="Blogs":
         st.write(blog1)
         st.write("---")
         st.header("Agentic AI: Unleashing the Cognitive Frontier of Artificial Intelligence")
-        st.write(
+        st.write(blog2)
     
         
 
