@@ -19,7 +19,7 @@ header_ani = load_lottieurl("https://lottie.host/ffc18d17-c4da-4c89-9ccf-ad8bc10
 image = Image.open("Screenshot 2025-03-24 024654.png")
 # image2 = Image.open("E:\Portfolio\Portfolio - Streamlit\Images\unnamed (1).jpg")
 image2 = Image.open("Screenshot 2025-03-24 042423.png")
-image3 = 
+image3 = Image.open("Screenshot 2025-03-24 042423.png")
 main , starter =  st.columns(2)
 with main:
     # st_lottie(header_ani, height=150, width= 300)
