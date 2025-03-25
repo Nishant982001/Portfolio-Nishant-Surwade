@@ -94,7 +94,7 @@ if selected == 'About':
     # col1, col2  = st.columns(2)
     # with col1:
     st.subheader("Click To Generate The Response")
-    education, skills, workex, achiev, society = st.columns(5)
+    education, skills, achiev, society = st.columns(4)
     mainbox = st.container( border=True, height=300 )
     with education:
         if st.button("Education",use_container_width=True):
@@ -102,10 +102,6 @@ if selected == 'About':
                (st.write_stream(stream_data(edu)))
     with skills:
         if st.button("Skills",use_container_width=True):
-            with mainbox:
-                st.write_stream(stream_data(text))
-    with workex:
-        if st.button("workex",use_container_width=True):
             with mainbox:
                 st.write_stream(stream_data(text))
     with achiev:
