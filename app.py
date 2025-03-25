@@ -47,7 +47,6 @@ with main:
                     file_name="test.pdf",
                     mime='application/octet-stream')
         
-    )
 with starter:
     st_lottie(lottie_loader2, height=385, width=700)
 
