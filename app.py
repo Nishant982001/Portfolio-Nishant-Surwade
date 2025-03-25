@@ -39,13 +39,13 @@ with main:
     with tweet:
         st.link_button("X","https://x.com/INishantSurwade", use_container_width=True)
     
-    with open("dummy.pdf", "rb") as pdf_file:
-    PDFbyte = pdf_file.read()
+    # with open("dummy.pdf", "rb") as pdf_file:
+    # PDFbyte = pdf_file.read()
 
-    st.download_button(label="Export_Report",
-                    data=PDFbyte,
-                    file_name="test.pdf",
-                    mime='application/octet-stream')
+    # st.download_button(label="Export_Report",
+    #                 data=PDFbyte,
+    #                 file_name="test.pdf",
+    #                 mime='application/octet-stream')
         
 with starter:
     st_lottie(lottie_loader2, height=385, width=700)
