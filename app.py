@@ -255,7 +255,7 @@ The age of agentic AI is here, and LangChain is leading the charge.
 
 if selected=="Blogs":
     with st.container():
-        st.title("LangChain: Bridging the Gap Between Language Models and Intelligent Applications") 
+        st.header("LangChain: Bridging the Gap Between Language Models and Intelligent Applications") 
         st.write(blog1)
     
         
