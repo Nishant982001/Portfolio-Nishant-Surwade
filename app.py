@@ -216,8 +216,8 @@ The journey of Agentic AI is just beginning, and its trajectory promises to be a
 if selected=="Blogs":
     blogbox = st.container(border=True)
     with st.container():
-        st.header("LangChain: Bridging the Gap Between Language Models and Intelligent Applications")
         with blogbox:
+            st.header("LangChain: Bridging the Gap Between Language Models and Intelligent Applications")
             if st.button("Generate"):
                          st.write_stream(stream_data(blog1))
         st.write("---")
