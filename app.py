@@ -214,6 +214,7 @@ The journey of Agentic AI is just beginning, and its trajectory promises to be a
 """
 
 if selected=="Blogs":
+    blogbox1, blogbox2, blogbox3 = st.container(3, border=True)
     with st.container():
         st.header("LangChain: Bridging the Gap Between Language Models and Intelligent Applications") 
         st.write(blog1)
