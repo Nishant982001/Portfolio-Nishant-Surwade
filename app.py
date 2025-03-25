@@ -220,7 +220,6 @@ if selected=="Blogs":
         with blogbox:
             if st.button("Generate"):
                          st.write_stream(stream_data(blog1))
-        st.write(blog1)
         st.write("---")
         st.header("Agentic AI: Unleashing the Cognitive Frontier of Artificial Intelligence")
         st.write(blog2)
