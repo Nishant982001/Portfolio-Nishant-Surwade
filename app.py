@@ -38,11 +38,14 @@ with main:
         st.link_button("GITHUB","https://github.com/Nishant982001", use_container_width=True)
     with tweet:
         st.link_button("X","https://x.com/INishantSurwade", use_container_width=True)
-    st.download_button(
-        label = "Download CV",
-        data = file,
-        file_name = "resume.pdf",
-        icon=":material/download:",
+    
+    with open("dummy.pdf", "rb") as pdf_file:
+    PDFbyte = pdf_file.read()
+
+    st.download_button(label="Export_Report",
+                    data=PDFbyte,
+                    file_name="test.pdf",
+                    mime='application/octet-stream')
         
     )
 with starter:
