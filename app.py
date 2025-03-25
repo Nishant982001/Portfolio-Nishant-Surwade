@@ -28,15 +28,15 @@ with main:
     st.write("Connect with me...")
     gmail, linked, insta, github, tweet= st.columns(5)
     with gmail:
-        st.button("","https://mail.google.com/mail/u/0/#sent?compose=CllgCKCFSmddMrZBLdrWLDRkBHTjKqZzGQmQwhNwBshRTZgTMSCGQKXMcWsDWdxbcxZHNQPqcBB",use_container_width=True,icon=":material/mail:")
+        st.link_button("","https://mail.google.com/mail/u/0/#sent?compose=CllgCKCFSmddMrZBLdrWLDRkBHTjKqZzGQmQwhNwBshRTZgTMSCGQKXMcWsDWdxbcxZHNQPqcBB",use_container_width=True,icon=":material/mail:")
     with linked:
         st.link_button("LINKEDIN","https://www.linkedin.com/in/nishantsurwade8314/",use_container_width=True)
     with insta:
-        st.button("INSTA","https://www.instagram.com/nishant_surwade.exe/", use_container_width=True)
+        st.link_button("INSTA","https://www.instagram.com/nishant_surwade.exe/", use_container_width=True)
     with github:
         st.link_button("GITHUB","https://github.com/Nishant982001", use_container_width=True)
     with tweet:
-        st.button("X","https://x.com/INishantSurwade", use_container_width=True)
+        st.link_button("X","https://x.com/INishantSurwade", use_container_width=True)
 with starter:
     st_lottie(lottie_loader2, height=385, width=700)
 
