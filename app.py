@@ -94,7 +94,7 @@ if selected == 'About':
     # col1, col2  = st.columns(2)
     # with col1:
     st.subheader("Click To Generate The Response")
-    education, skills, achiev, society = st.columns(4)
+    skills, achiev, society, education = st.columns(4)
     mainbox = st.container( border=True, height=300 )
     
     with skills:
