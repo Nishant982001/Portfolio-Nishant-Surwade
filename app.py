@@ -38,6 +38,12 @@ with main:
         st.link_button("GITHUB","https://github.com/Nishant982001", use_container_width=True)
     with tweet:
         st.link_button("X","https://x.com/INishantSurwade", use_container_width=True)
+    st.download_button(
+        lable = "Download CV",
+        data = pdf,
+        file_name = "resume.pdf"
+        
+    )
 with starter:
     st_lottie(lottie_loader2, height=385, width=700)
 
