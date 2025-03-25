@@ -39,7 +39,7 @@ with main:
     with tweet:
         st.link_button("X","https://x.com/INishantSurwade", use_container_width=True)
     st.download_button(
-        lable = "Download CV",
+        label = "Download CV",
         file_name = "resume.pdf"
         
     )
