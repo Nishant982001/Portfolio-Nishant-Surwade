@@ -180,9 +180,9 @@ if selected == "Projects":
                     """)
             col31, col32, col33 = st.columns(3)
             with col31:
-                st.link_button("Github Repo","https://github.com/Nishant982001/NVIDIA-NIM-RAG-AI-Powered-Document-Querying-with-FAISS",use_container_width=True)
+                st.link_button("Github Repo","https://github.com/Nishant982001/RAG-PDFChat-AI-Powered-Q-A-with-Contextual-Memory",use_container_width=True)
             with col32:
-                st.link_button("View Demo","https://ai-blogcrafter.streamlit.app/",use_container_width=True)
+                st.link_button("View Demo","https://rag-pdfchat-ai.streamlit.app/",use_container_width=True)
             with col33:
                 st.link_button("Comments","",use_container_width=True)
         st.write("---") 
