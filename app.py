@@ -18,7 +18,7 @@ lottie_loader2 = load_lottieurl("https://lottie.host/71738967-3ac7-4d0b-8575-966
 header_ani = load_lottieurl("https://lottie.host/ffc18d17-c4da-4c89-9ccf-ad8bc1049595/ExIAIVoHhL.json")
 image = Image.open("Screenshot 2025-03-31 125954.png")
 # image2 = Image.open("E:\Portfolio\Portfolio - Streamlit\Images\unnamed (1).jpg")
-image2 = Image.open("Screenshot 2025-03-24 042423.png")
+image2 = Image.open("Screenshot 2025-03-31 130941.png")
 image3 = Image.open("Screenshot 2025-03-24 042423.png")
 main , starter =  st.columns(2)
 with main:
