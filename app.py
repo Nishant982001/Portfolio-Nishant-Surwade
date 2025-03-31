@@ -165,7 +165,7 @@ if selected == "Projects":
             with col21:
                 st.link_button("Github Repo","https://github.com/Nishant982001/NVIDIA-NIM-RAG-AI-Powered-Document-Querying-with-FAISS",use_container_width=True)
             with col22:
-                st.link_button("View Demo","https://ai-blogcrafter.streamlit.app/",use_container_width=True)
+                st.link_button("View Demo","https://nvidianimrag.streamlit.app/",use_container_width=True)
             with col23:
                 st.link_button("Comments","",use_container_width=True)
         st.write("---")  
