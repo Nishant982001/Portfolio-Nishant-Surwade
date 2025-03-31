@@ -19,7 +19,7 @@ header_ani = load_lottieurl("https://lottie.host/ffc18d17-c4da-4c89-9ccf-ad8bc10
 image = Image.open("Screenshot 2025-03-31 125954.png")
 # image2 = Image.open("E:\Portfolio\Portfolio - Streamlit\Images\unnamed (1).jpg")
 image2 = Image.open("Screenshot 2025-03-31 130941.png")
-image3 = Image.open("Screenshot 2025-03-24 042423.png")
+image3 = Image.open("Screenshot 2025-03-31 131554.png")
 main , starter =  st.columns(2)
 with main:
     # st_lottie(header_ani, height=150, width= 300)
@@ -172,7 +172,7 @@ if selected == "Projects":
 
         col9 , col10 = st.columns({1,2})
         with col9:
-            st.image(image2)
+            st.image(image3)
         with col10:
             st.subheader("RAG-PDFChat: AI-Powered Q&A with Contextual Memory")
             st.write("""
